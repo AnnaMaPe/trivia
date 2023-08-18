@@ -1,3 +1,16 @@
+:root {
+  --text-main-color: #000;
+  --text-title-color: #944bbb;
+  --text--acent-color: #7a599c;
+  --font-family-base: 'Space Grotesk';
+  --font-family-accent: 'Quicksand';
+  --font-letter-spacing: 0.1rem;
+  --main-color: #c8b6ff;
+  --accent-color: #f1e0a9;
+  --success-color: #51d0d0;
+  --error-color: #ea259e;
+}
+
 *,
 ::before,
 ::after {
