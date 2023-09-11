@@ -1,3 +1,5 @@
+@import '/node_modules/@fontsource/space-grotesk/300.css';
+
 :root {
   --text-main-color: #000;
   --text-title-color: #944bbb;
@@ -15,6 +17,10 @@
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family-base);
 }
 
 body {
@@ -45,10 +51,17 @@ button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  border-radius: 1rem;
 }
 
+label,
 input,
 select,
 textarea {
   outline: none;
+  font-family: inherit;
+}
+
+.app {
+  margin: 15px;
 }
